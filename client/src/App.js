@@ -4,7 +4,9 @@ import React, { useState } from 'react';
 
 function App() {
 
-  const [code, setCode] = useState('');
+  const [code, setCode] = useState(`#Python
+
+print('Hello World!') `);
   const [output, setOutput] = useState('');
   const [status, setStatus] = useState('');
   const [jobId, setJobId] = useState('');
